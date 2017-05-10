@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F53026961EC2FD2E00D7C142 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F53026951EC2FD2E00D7C142 /* main.m */; };
+		F53026991EC2FD2E00D7C142 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F53026981EC2FD2E00D7C142 /* AppDelegate.m */; };
+		F53026A21EC2FD2E00D7C142 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F53026A01EC2FD2E00D7C142 /* Main.storyboard */; };
+		F53026A41EC2FD2E00D7C142 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F53026A31EC2FD2E00D7C142 /* Assets.xcassets */; };
+		F53026A71EC2FD2E00D7C142 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F53026A51EC2FD2E00D7C142 /* LaunchScreen.storyboard */; };
+		F53026B91EC2FE4000D7C142 /* EProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = F53026B81EC2FE4000D7C142 /* EProfileController.m */; };
+		F53026BC1EC2FE5C00D7C142 /* EHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = F53026BB1EC2FE5C00D7C142 /* EHomeController.m */; };
+		F53026BF1EC2FF3800D7C142 /* EHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F53026BE1EC2FF3800D7C142 /* EHomeView.m */; };
+		F53026C21EC2FFEC00D7C142 /* EHomePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = F53026C11EC2FFEC00D7C142 /* EHomePresenter.m */; };
+		F53026C51EC300D100D7C142 /* EHomeFollowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F53026C41EC300D100D7C142 /* EHomeFollowController.m */; };
+		F53026C81EC300E300D7C142 /* EHomeNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F53026C71EC300E300D7C142 /* EHomeNewController.m */; };
+		F53026CB1EC300FB00D7C142 /* EHomeTrendingController.m in Sources */ = {isa = PBXBuildFile; fileRef = F53026CA1EC300FB00D7C142 /* EHomeTrendingController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F53026911EC2FD2D00D7C142 /* StreamTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreamTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F53026951EC2FD2E00D7C142 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F53026971EC2FD2E00D7C142 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F53026981EC2FD2E00D7C142 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F53026A11EC2FD2E00D7C142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F53026A31EC2FD2E00D7C142 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F53026A61EC2FD2E00D7C142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F53026A81EC2FD2E00D7C142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F53026B71EC2FE4000D7C142 /* EProfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EProfileController.h; sourceTree = "<group>"; };
+		F53026B81EC2FE4000D7C142 /* EProfileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EProfileController.m; sourceTree = "<group>"; };
+		F53026BA1EC2FE5C00D7C142 /* EHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHomeController.h; sourceTree = "<group>"; };
+		F53026BB1EC2FE5C00D7C142 /* EHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHomeController.m; sourceTree = "<group>"; };
+		F53026BD1EC2FF3800D7C142 /* EHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHomeView.h; sourceTree = "<group>"; };
+		F53026BE1EC2FF3800D7C142 /* EHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHomeView.m; sourceTree = "<group>"; };
+		F53026C01EC2FFEC00D7C142 /* EHomePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHomePresenter.h; sourceTree = "<group>"; };
+		F53026C11EC2FFEC00D7C142 /* EHomePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHomePresenter.m; sourceTree = "<group>"; };
+		F53026C31EC300D100D7C142 /* EHomeFollowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHomeFollowController.h; sourceTree = "<group>"; };
+		F53026C41EC300D100D7C142 /* EHomeFollowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHomeFollowController.m; sourceTree = "<group>"; };
+		F53026C61EC300E300D7C142 /* EHomeNewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHomeNewController.h; sourceTree = "<group>"; };
+		F53026C71EC300E300D7C142 /* EHomeNewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHomeNewController.m; sourceTree = "<group>"; };
+		F53026C91EC300FB00D7C142 /* EHomeTrendingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHomeTrendingController.h; sourceTree = "<group>"; };
+		F53026CA1EC300FB00D7C142 /* EHomeTrendingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHomeTrendingController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F530268E1EC2FD2D00D7C142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F53026881EC2FD2D00D7C142 = {
+			isa = PBXGroup;
+			children = (
+				F53026931EC2FD2E00D7C142 /* StreamTest */,
+				F53026921EC2FD2D00D7C142 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F53026921EC2FD2D00D7C142 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F53026911EC2FD2D00D7C142 /* StreamTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F53026931EC2FD2E00D7C142 /* StreamTest */ = {
+			isa = PBXGroup;
+			children = (
+				F53026B01EC2FDBA00D7C142 /* Dao */,
+				F53026AF1EC2FDB000D7C142 /* Service */,
+				F53026AE1EC2FD8700D7C142 /* Application(UI) */,
+				F53026971EC2FD2E00D7C142 /* AppDelegate.h */,
+				F53026981EC2FD2E00D7C142 /* AppDelegate.m */,
+				F53026A01EC2FD2E00D7C142 /* Main.storyboard */,
+				F53026A31EC2FD2E00D7C142 /* Assets.xcassets */,
+				F53026A51EC2FD2E00D7C142 /* LaunchScreen.storyboard */,
+				F53026A81EC2FD2E00D7C142 /* Info.plist */,
+				F53026941EC2FD2E00D7C142 /* Supporting Files */,
+			);
+			path = StreamTest;
+			sourceTree = "<group>";
+		};
+		F53026941EC2FD2E00D7C142 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F53026951EC2FD2E00D7C142 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F53026AE1EC2FD8700D7C142 /* Application(UI) */ = {
+			isa = PBXGroup;
+			children = (
+				F53026B31EC2FDE500D7C142 /* Profile */,
+				F53026B21EC2FDDE00D7C142 /* Sream */,
+				F53026B11EC2FDD500D7C142 /* Home */,
+			);
+			name = "Application(UI)";
+			sourceTree = "<group>";
+		};
+		F53026AF1EC2FDB000D7C142 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		F53026B01EC2FDBA00D7C142 /* Dao */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Dao;
+			sourceTree = "<group>";
+		};
+		F53026B11EC2FDD500D7C142 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F53026B61EC2FE0700D7C142 /* Follow */,
+				F53026B51EC2FE0100D7C142 /* New */,
+				F53026B41EC2FDF300D7C142 /* Trending */,
+				F53026BA1EC2FE5C00D7C142 /* EHomeController.h */,
+				F53026BB1EC2FE5C00D7C142 /* EHomeController.m */,
+				F53026BD1EC2FF3800D7C142 /* EHomeView.h */,
+				F53026BE1EC2FF3800D7C142 /* EHomeView.m */,
+				F53026C01EC2FFEC00D7C142 /* EHomePresenter.h */,
+				F53026C11EC2FFEC00D7C142 /* EHomePresenter.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		F53026B21EC2FDDE00D7C142 /* Sream */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sream;
+			sourceTree = "<group>";
+		};
+		F53026B31EC2FDE500D7C142 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F53026B71EC2FE4000D7C142 /* EProfileController.h */,
+				F53026B81EC2FE4000D7C142 /* EProfileController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		F53026B41EC2FDF300D7C142 /* Trending */ = {
+			isa = PBXGroup;
+			children = (
+				F53026C91EC300FB00D7C142 /* EHomeTrendingController.h */,
+				F53026CA1EC300FB00D7C142 /* EHomeTrendingController.m */,
+			);
+			name = Trending;
+			sourceTree = "<group>";
+		};
+		F53026B51EC2FE0100D7C142 /* New */ = {
+			isa = PBXGroup;
+			children = (
+				F53026C61EC300E300D7C142 /* EHomeNewController.h */,
+				F53026C71EC300E300D7C142 /* EHomeNewController.m */,
+			);
+			name = New;
+			sourceTree = "<group>";
+		};
+		F53026B61EC2FE0700D7C142 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+				F53026C31EC300D100D7C142 /* EHomeFollowController.h */,
+				F53026C41EC300D100D7C142 /* EHomeFollowController.m */,
+			);
+			name = Follow;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F53026901EC2FD2D00D7C142 /* StreamTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F53026AB1EC2FD2E00D7C142 /* Build configuration list for PBXNativeTarget "StreamTest" */;
+			buildPhases = (
+				F530268D1EC2FD2D00D7C142 /* Sources */,
+				F530268E1EC2FD2D00D7C142 /* Frameworks */,
+				F530268F1EC2FD2D00D7C142 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StreamTest;
+			productName = StreamTest;
+			productReference = F53026911EC2FD2D00D7C142 /* StreamTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F53026891EC2FD2D00D7C142 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = dong;
+				TargetAttributes = {
+					F53026901EC2FD2D00D7C142 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F530268C1EC2FD2D00D7C142 /* Build configuration list for PBXProject "StreamTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F53026881EC2FD2D00D7C142;
+			productRefGroup = F53026921EC2FD2D00D7C142 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F53026901EC2FD2D00D7C142 /* StreamTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F530268F1EC2FD2D00D7C142 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F53026A71EC2FD2E00D7C142 /* LaunchScreen.storyboard in Resources */,
+				F53026A41EC2FD2E00D7C142 /* Assets.xcassets in Resources */,
+				F53026A21EC2FD2E00D7C142 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F530268D1EC2FD2D00D7C142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F53026C51EC300D100D7C142 /* EHomeFollowController.m in Sources */,
+				F53026991EC2FD2E00D7C142 /* AppDelegate.m in Sources */,
+				F53026BF1EC2FF3800D7C142 /* EHomeView.m in Sources */,
+				F53026C81EC300E300D7C142 /* EHomeNewController.m in Sources */,
+				F53026BC1EC2FE5C00D7C142 /* EHomeController.m in Sources */,
+				F53026CB1EC300FB00D7C142 /* EHomeTrendingController.m in Sources */,
+				F53026C21EC2FFEC00D7C142 /* EHomePresenter.m in Sources */,
+				F53026B91EC2FE4000D7C142 /* EProfileController.m in Sources */,
+				F53026961EC2FD2E00D7C142 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F53026A01EC2FD2E00D7C142 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F53026A11EC2FD2E00D7C142 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F53026A51EC2FD2E00D7C142 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F53026A61EC2FD2E00D7C142 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F53026A91EC2FD2E00D7C142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F53026AA1EC2FD2E00D7C142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F53026AC1EC2FD2E00D7C142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StreamTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dong.StreamTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F53026AD1EC2FD2E00D7C142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StreamTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dong.StreamTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F530268C1EC2FD2D00D7C142 /* Build configuration list for PBXProject "StreamTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F53026A91EC2FD2E00D7C142 /* Debug */,
+				F53026AA1EC2FD2E00D7C142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F53026AB1EC2FD2E00D7C142 /* Build configuration list for PBXNativeTarget "StreamTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F53026AC1EC2FD2E00D7C142 /* Debug */,
+				F53026AD1EC2FD2E00D7C142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F53026891EC2FD2D00D7C142 /* Project object */;
+}
